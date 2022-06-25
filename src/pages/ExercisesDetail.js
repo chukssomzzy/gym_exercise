@@ -29,11 +29,6 @@ const ExercisesDetail = () => {
         },[id])
   return (
       <Box>
-        <Box>
-      {
-          exerciseVideos
-      }
-      </Box>
           <Detail exercisesDetail={exercisesDetail}/>
           <ExerciseVideos exerciseVideos={exerciseVideos} name={exercisesDetail.name} />
           <SimilarExercises targetMuscleExercises={targetMuscle} equipmentExercises={equipmentExercises}/>
